@@ -10,6 +10,13 @@ export class GuiModel {
             "formList": [
                 {
                     "id": "FriendForm",
+                    {
+                     "id": "nickname",
+                     "type": "text",
+                     "name": "Nickname",
+                     "width": 2,
+                     "required": true
+                    },
                     "title": "Friend",
                     "url": "/friend",
                     "formFieldList": [
